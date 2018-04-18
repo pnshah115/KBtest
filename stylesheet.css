@@ -1,0 +1,410 @@
+@font-face {
+    font-family: "Berg Inline";
+    src: url("fonts/berg inline.ttf");
+}
+
+@font-face {
+    font-family: "Neutra Text";
+    src: url("fonts/font.otf");
+}
+
+.sidenav {
+    height: 3804px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: floralwhite;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 30px;
+    color: #AB2025;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: "Berg Inline";
+}
+
+
+.sidenav a:hover {
+    color: #0a374d;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+.bgimage {
+    height:900px;
+    background: url("img/homepagebg2.jpg") no-repeat center;
+    margin-top: -67px;
+
+
+}
+
+body, html {
+    background-color: floralwhite;
+    margin: 0;
+    padding: 0;
+    height:3900px;
+}
+
+
+
+.rectangle {
+    height: 100px;
+    width: 1440px;
+    text-align: center;
+    color: ghostwhite;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 52px;
+    font-family: "berg inline";
+    background-image: url("img/pattern1.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    text-shadow: black 2px 2px;
+
+
+
+}
+
+.bringing {
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+    font-family: "berg inline";
+    font-size: 36px;
+    color: white;
+    border: 0;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 0 0;
+    background-color: #ab2025;
+    text-shadow: black 2px 2px;
+}
+.specials {
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+    font-family: "berg inline";
+    font-size: 36px;
+    color: white;
+    border: 0;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 0 0;
+    background-color: #ab2025;
+    text-shadow: black 2px 2px;
+
+
+}
+
+.sushi {
+
+    height: 400px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+    display: block;
+}
+
+.cheers {
+
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    display: block;
+    border-radius: 50%;
+}
+.rectangle2 {
+    height: 100px;
+    width: 1440px;
+    text-align: center;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 52px;
+    margin-bottom: 50px;
+    font-family: "berg inline";
+    background-image: url("img/pattern3.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    text-shadow: black 2px 2px;
+
+}
+
+.about {
+    height: 130px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-family: "Avenir Next";
+    line-height: 1.5;
+    color: white;
+    border: 0;
+    background-color: #ab2025;
+    margin-bottom:50px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 15px;
+    text-shadow: black 2px 2px;
+
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    top: -70px;
+    text-shadow: black 2px 2px;
+
+}
+
+.border {
+
+    border: 0;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px 0px 0px;
+    background-color: #ab2025;
+    text-align: center;
+
+
+}
+
+.border1 {
+
+    border: 0;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 0 0;
+    background-color: #ab2025;
+    text-align: center;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 1440px;
+
+}
+
+#navbar {
+    overflow: hidden;
+}
+
+.rectangle3 {
+    height: 100px;
+    width: 1440px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 52px;
+    font-family: "berg inline";
+    background-image: url("img/pattern4.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    text-shadow: black 2px 2px;
+    margin-top: 50px;
+
+}
+
+.rectangle4 {
+    height: 100px;
+    width: 1440px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 52px;
+    font-family: "berg inline";
+    background-image: url("img/pattern8.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    text-shadow: black 2px 2px;
+
+}
+
+.maps {
+    width: 1440px;
+    height: 500px;
+    padding-top:25px;
+    margin-bottom: 15px;
+}
+
+
+.hours {
+    font-size: 20px;
+    font-family: "Avenir Next";
+    text-align: left;
+    display: inline-block;
+    color: white;
+    border: 0;
+    margin-left: 10px;
+    padding:0 10px 0 10px;
+    background-color: #ab2025;
+    text-shadow: black 2px 2px;
+
+
+}
+
+.address {
+    font-size: 20px;
+    font-family: "Avenir Next";
+    text-align: left;
+    float: right;
+    color: white;
+    border: 0;
+    margin-right:10px;
+    padding:0 10px 0 10px;
+    background-color: #ab2025;
+    text-shadow: black 2px 2px;
+}
+
+.footer-social {
+    margin-right: auto;
+    margin-left: auto;
+    width:200px
+
+
+}
+
+.connect {
+    font-family: "Avenir Next";
+    font-size: 16px;
+}
+td, th{
+    padding: 8px 5px 8px 5px;
+}
+
+th{
+    font-family: "Berg Inline";
+    font-size: 28px;
+}
+.center{
+    text-align: center;
+
+}
+.happyhour {
+    font-size: 20px;
+    font-family: "Avenir Next";
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: -40px;
+    margin-bottom:25px;
+    color: white;
+    border: 0;
+    background-color: #ab2025;
+    text-shadow: black 2px 2px;
+    padding: 15px 15px 15px 15px;
+}
+.menubox{
+    width: 20px;
+    background-color: #ab2025;;
+    margin-right:15px;
+    height:60px;
+
+}
+
+
+.accordion {
+    background-color: #ab2025;;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 800px;
+    text-align: center;
+    outline: none;
+    font-size: 26px;
+    transition: 0.4s;
+    font-family: "Berg Inline";
+    text-shadow: black 2px 2px;
+    border: 1px solid #ba5342;
+
+
+}
+
+.active, .accordion:hover {
+    background-color:#ba5342;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #ba5342;
+    max-height: 0;
+    font-family: "Avenir Next";
+    text-shadow: black 2px 2px;
+    color:white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+}
+
+.accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    text-shadow: none;
+
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.right{
+    float: right;
+    font-weight: normal;
+    font-family: "Avenir Next";
+    font-size: 15px;
+}
+.butmid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+h4{
+    font-family: "Berg Inline";
+    font-size: 22px;
+}
+p{
+    border-bottom: 1px solid white;
+    width: auto;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left:  auto;
+
+    max-width: 1200px;
+}
